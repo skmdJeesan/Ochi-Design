@@ -1,12 +1,47 @@
-# React + Vite
+# ochi design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A compact, motion-first clone of ochi.design** — rebuilt to explore scroll-driven interactions, parallax, and performance-friendly animation patterns using React, Tailwind CSS, and Locomotive Scroll. For learning and portfolio use only (not the official site).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech
 
-## Expanding the ESLint configuration
+* React
+* Tailwind CSS
+* Locomotive Scroll
+* Vite / CRA (adjust scripts to your setup)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live demo
+
+Live demo: [Open live demo](https://your-demo-url.example)
+
+## Repo
+
+Repo: [Source code on GitHub](https://github.com/your-username/your-repo)
+
+## Quick start
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+npm install
+npm run dev # or npm start
+```
+
+## Notes
+
+* Initialize Locomotive inside `useEffect` and wrap the scrollable container with `data-scroll-container`.
+* Use `data-scroll-section`, `data-scroll`, `data-scroll-speed` on animated elements and call `scroll.update()` after layout changes.
+* Respect `prefers-reduced-motion` and consider disabling heavy motion on mobile.
+
+## Troubleshooting
+
+* Locomotive not working → ensure `data-scroll-container` exists and you imported `locomotive-scroll` CSS.
+* Tailwind missing classes → check `tailwind.config.js` `content` paths and restart the dev server.
+
+---
+
+*This project is an educational/portfolio clone — not the official Ochi site.*
+
+## Contact
+skmdjeesan@gmail.com
