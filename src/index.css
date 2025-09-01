@@ -1,0 +1,12 @@
+@import "tailwindcss";
+*{box-sizing: border-box;}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url(./assets/NeueMontreal-Regular.woff);
+}
+
+@font-face {
+  font-family: 'Founders';
+  src: url(./assets/FoundersGrotesk-Semibold.woff);
+}
