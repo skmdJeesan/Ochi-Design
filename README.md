@@ -17,7 +17,7 @@ Live demo: [Open live demo](https://your-demo-url.example)
 
 ## Repo
 
-Repo: [Source code on GitHub](https://github.com/your-username/your-repo)
+Repo: [Source code on GitHub](https://github.com/skmdJeesan/Ochi-Design/tree/main)
 
 ## Quick start
 
