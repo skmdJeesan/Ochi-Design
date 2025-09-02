@@ -1,6 +1,6 @@
 # ochi design
 
-**A compact, motion-first clone of ochi.design** — rebuilt to explore scroll-driven interactions, parallax, and performance-friendly animation patterns using React, Tailwind CSS, and Locomotive Scroll. For learning and portfolio use only (not the official site).
+**A compact, motion-first clone of ochi.design** — rebuilt to explore scroll-driven interactions, parallax, and performance-friendly animation patterns using React, Tailwind CSS, Locomotive Scroll and framer motion. For learning and portfolio use only (not the official site).
 
 ---
 
@@ -8,12 +8,13 @@
 
 * React
 * Tailwind CSS
+* Framer Motion
 * Locomotive Scroll
 * Vite / CRA (adjust scripts to your setup)
 
 ## Live demo
 
-Live demo: [Open live demo](https://your-demo-url.example)
+Live demo: [Open live demo](https://skmdJeesan.github.io/Ochi-Design)
 
 ## Repo
 
